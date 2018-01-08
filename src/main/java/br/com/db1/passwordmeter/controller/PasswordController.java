@@ -19,13 +19,9 @@ public class PasswordController {
 
     @PostMapping("/senha")
     public String senha(@RequestBody Map<String, String> body){
-
-
-        System.out.println("print body " + body.get("senha"));
         int score = pwdB.score(body.get("senha"));
         pwd.setScore(score);
         pwd.setLevel(pwd.getLevel(score));
-        System.out.println(gson.toJson(pwd));
         return gson.toJson(pwd);
     }
 }

@@ -1,10 +1,4 @@
-$('#mostrarSenha').change(function(){
-	if ($(this).is(':checked')) {
-		$("#senha").prop("type", "text");
-    }else{
-    	$("#senha").prop("type", "password");
-    }
-});
+
 
 $('#senha').keyup(function () {
     var getSenha = document.getElementById('senha');
