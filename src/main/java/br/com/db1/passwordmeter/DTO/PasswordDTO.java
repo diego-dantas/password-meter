@@ -33,7 +33,7 @@ public class PasswordDTO {
         }else if(intScore > 60 && intScore <= 80){
             lev = "STRONG";
         }else if(intScore > 80 && intScore <= 100){
-            lev = "VERY_STRONG";
+            lev = "VERY STRONG";
         }
 
 
