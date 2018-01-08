@@ -10,7 +10,30 @@
 p {
     margin-top: 10px;
 }
+spam .label {
+    padding: 20px;
+}
+.semaforo1 {
+    background-color: #FF0000;
+    color: #ffffff;
+}
 
-.semaforo {
-    background-color: #2b542c;
+.semaforo2 {
+    background-color: #FF4500;
+    color: #ffffff;
+}
+
+.semaforo3 {
+    background-color: #FFD700;
+    color: #000000;
+}
+
+.semaforo4 {
+    background-color: #00FF00;
+    color: #000000;
+}
+
+.semaforo5 {
+    background-color: #006400;
+    color: #000000;
 }
